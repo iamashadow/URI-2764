@@ -1,0 +1,83 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(int argc, char** argv){
+
+int dd,mm,yy;
+scanf("%d/%d/%d",&dd,&mm,&yy);
+
+
+if(mm<10){
+    cout<<"0"<<mm<<"/";
+}
+else{
+    cout<<mm<<"/";
+}
+
+
+if(dd<10){
+    cout<<"0"<<dd<<"/";
+}
+else{
+    cout<<dd<<"/";
+}
+
+
+
+if(yy<10){
+    cout<<"0"<<yy<<endl;
+}
+else{
+    cout<<yy<<endl;
+}
+
+//-----------
+
+if(yy<10){
+    cout<<"0"<<yy<<"/";
+}
+else{
+    cout<<yy<<"/";
+}
+
+
+if(mm<10){
+    cout<<"0"<<mm<<"/";
+}
+else{
+    cout<<mm<<"/";
+}
+
+
+if(dd<10){
+    cout<<"0"<<dd<<endl;
+}
+else{
+    cout<<dd<<endl;
+}
+
+
+
+//---------------------
+
+if(dd<10){
+    cout<<"0"<<dd<<"-";
+}
+else{
+    cout<<dd<<"-";
+}
+
+if(mm<10){
+    cout<<"0"<<mm<<"-";
+}
+else{
+    cout<<mm<<"-";
+}
+
+if(yy<10){
+    cout<<"0"<<yy<<endl;
+}
+else{
+    cout<<yy<<endl;
+}
+
+}
